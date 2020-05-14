@@ -1,0 +1,108 @@
+@font-face{
+  src: url(fonts/JejuHallasan.ttf);
+  font-family: JejuHallasan;
+}
+
+*{
+  font-family: JejuHallasan;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+#wrapper{
+  width: 960px;
+  margin: 0 auto;
+}
+#menu-bar{
+  background-color: #300000;
+}
+ul{
+  margin: 0;
+  height: 50px;
+}
+.menu{
+  display: inline-block;
+  color: white;
+  padding: 15px;
+}
+
+#image-zone{
+  width: 960px;
+  height: 480px;
+  background-image: url(images/barista.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1{
+  padding: 20px;
+  text-align: center;
+}
+
+#info-time{
+  width: 960px;
+  height: 480px;
+  border: 1px solid #cccccc;
+  background-color: #eaeaea;
+}
+
+#coffee{
+  margin: 40px;
+  float: left;
+}
+
+#time{
+  margin: 40px;
+  float: left;
+}
+
+#info-map{
+  width: 960px;
+  height: 480px;
+  border: 1px solid #cccccc;
+  background-color: #ffffff;
+}
+
+#map{
+  margin: 40px;
+  float: left;
+}
+
+#comment{
+  margin: 40px;
+  float: left;
+}
+
+
+#info-recipe{
+  width: 960px;
+  height: 480px;
+  border: 1px solid #cccccc;
+  background-color: #eaeaea;
+}
+
+#ice{
+  margin: 30px;
+  float: right;
+  border-radius: 50%;
+}
+
+#recipe{
+  margin: 40px;
+  float: left;
+  width: 400px;
+}
+
+#bottom-bar{
+  background-color: #300000;
+  padding: 20px;
+}
+
+h2{
+  text-align: center;
+  color: white;
+  margin: 0;
+}
